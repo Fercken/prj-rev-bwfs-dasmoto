@@ -1,0 +1,45 @@
+/** General **/
+body {
+  font-family: Helvetica, sans-serif;
+} /*Added sans-serif in case Helvetica font is not available*/
+
+/** Header Styles**/
+#header {
+  background-image: url("/resources/img/pattern.jpeg");
+  text-align: center;
+}
+
+#header h1{
+  font-size: 100px;
+  font-weight: bold;
+  color: khaki;
+}
+
+/** Typography IDs **/
+#brushes {
+  background-color: mediumspringgreen;
+}
+
+#frames {
+  background-color: lightcoral;
+}
+
+#paint {
+  background-color: skyblue;
+}
+
+/** Typography Classes**/
+.visuals {
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+}
+
+.price {
+  color: blue;
+  font-weight: bold;
+}
+
+.footer {
+  text-align: right;
+}
